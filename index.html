@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Screen Resolution</title>
+</head>
+<body>
+    <h1>Resolusi Layar Anda</h1>
+    <p id="resolution"></p>
+
+    <script>
+        // Mendapatkan resolusi layar
+        const width = window.screen.width;
+        const height = window.screen.height;
+
+        // Menampilkan resolusi layar
+        document.getElementById('resolution').innerText = `Resolusi layar Anda adalah ${width} x ${height} piksel.`;
+    </script>
+</body>
+</html>
